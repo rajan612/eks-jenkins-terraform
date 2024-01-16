@@ -9,3 +9,8 @@ variable "public_subnets" {
   type        = list(string)
 
 }
+
+variable "instance_type" {
+  description = "Instance type"
+  type        = string
+}
